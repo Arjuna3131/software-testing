@@ -16,7 +16,7 @@ class Test12(unittest.TestCase):
     
     def test_12(self):
         driver = self.driver
-        driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
+        driver.get("https://opensource-demo.bluehrmlive.com/index.php/auth/login")
         driver.find_element_by_id("txtUsername").clear()
         driver.find_element_by_id("txtUsername").send_keys("Admin")
         driver.find_element_by_id("txtPassword").clear()
